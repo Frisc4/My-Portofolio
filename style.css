@@ -1,0 +1,25 @@
+  
+  body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding-top: 100px; /* Supaya konten tidak ketiban navbar */
+}
+
+.profile-img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border: 4px solid #333;
+}
+html {
+  scroll-behavior: smooth;
+}
+.contact-icon {
+  font-size: 60px;        /* ukuran icon */
+  color: #333;
+  transition: all 0.3s ease;
+}
+
+.contact-icon:hover {
+  color: #0d6efd;         /* warna berubah */
+  transform: translateY(-10px); /* naik */
+}
